@@ -1,0 +1,29 @@
+{
+  "name": "fischer",
+  "version": "1.0.0",
+  "description": "A chess engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "chess"
+  ],
+  "author": "Biyinzika Joshua",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "globals": "^15.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "3.2.5",
+    "typescript-eslint": "^7.8.0"
+  }
+}
